@@ -177,9 +177,9 @@ jQuery(document).ready(function () {
 		$("div,section").css('background', function() {
 			return jQuery(this).data('bgimage');
 		});
-		// $("div,section").css('background-size', function() {
-		// 	return 'cover';
-		// });
+		$("div,section").css('background-size', function() {
+			return 'cover';
+		});
 	}
 	
 	// progress bar //
