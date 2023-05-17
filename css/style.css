@@ -6380,7 +6380,7 @@ transition:.5s;
   	transform: scale(1.1);
 }
 
- .di-small{
+ /* .di-small{
 	position:absolute;
 	width:50%;
 	height:50%;
@@ -6399,7 +6399,29 @@ transition:.5s;
 	bottom:-10%;
 	z-index:1;
 	object-fit: cover;
-}
+} */
+
+
+.di-small{
+	position:absolute;
+	width:50%;
+	height:50%;
+	top:75%;
+	left:-15%;
+	z-index:-1;
+	object-fit: cover;
+  }
+  
+  .di-small-2{
+	position:absolute;
+	width:40%;
+	height:40%;
+	right:-5%;
+	bottom:-10%;
+	z-index:1;
+	object-fit: cover;
+  }
+
 
 /* schedule */
 
